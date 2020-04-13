@@ -14,3 +14,10 @@ FIFO queues are designed to ensure that the order in which messages are sent and
 
 
 Dynamo db is a nosql database
+
+What is a CloudFormation stack?
+
+A collection of aws resources that can be managed as a single unit.
+
+
+A stack is a collection of AWS resources that you can manage as a single unit. In other words, you can create, update, or delete a collection of resources by creating, updating, or deleting stacks. All the resources in a stack are defined by the stack's AWS CloudFormation template.
