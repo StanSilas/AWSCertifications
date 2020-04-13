@@ -1,0 +1,16 @@
+AWS TCO takes into consideration
+- server 
+- storage
+- network
+- IT Labour
+
+
+RDS supports automated backups, manual scaling and automated software updates
+
+
+Question 3:
+How can you ensure SQS messages are delivered in order?
+FIFO queues are designed to ensure that the order in which messages are sent and received is strictly preserved and that each message is processed exactly once. See https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues.html
+
+
+Dynamo db is a nosql database
