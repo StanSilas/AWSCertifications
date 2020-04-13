@@ -93,4 +93,18 @@ What happens, by default, when one of the resources in a CloudFormation stack ca
 By default, the “automatic rollback on error” feature is enabled. This will cause all AWS resources that AWS CloudFormation created successfully for a stack up to the point where an error occurred to be deleted. This is useful when, for example, you accidentally exceed your default limit of Elastic IP addresses, or you don’t have access to an EC2 AMI you’re trying to run. This feature enables you to rely on the fact that stacks are either fully created, or not at all, which simplifies system administration and layered solutions built on top of AWS CloudFormation.
 
 
+Amazon CloudFront is a global content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to your viewers with low latency and high transfer speeds from ________ around the World.
+EDGE locations
 
+What AWS service can you use to log API calls to SQS?
+
+cloud trail (b/w aws services)
+
+
+
+CloudWatch free monitoring for EC2 is at ________ intervals.
+
+5minutes
+
+You can use Amazon ________ to monitor, store, and access your log files from Amazon Elastic Compute Cloud (Amazon EC2) instances, AWS CloudTrail, Route 53, and other sources. You can then retrieve the associated log data from _________.
+CWLogs
