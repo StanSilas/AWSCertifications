@@ -1,0 +1,18 @@
+A database is a collection of Tables. An Table is a collection of items and each item is a collection of attributes.
+
+​You connect to your EC2 Windows instance using RDP. You connect to your EC2 Linux instance using SSH.
+
+
+Question 27:
+It is best practice to use the instance store available for your EC2 instance to store temporary data.
+An instance store provides temporary block-level storage for your instance. This storage is located on disks that are physically attached to the host computer. Instance store is ideal for temporary storage of information that changes frequently, such as buffers, caches, scratch data, and other temporary content, or for data that is replicated across a fleet of instances, such as a load-balanced pool of web servers. See: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html
+
+
+An EC2 security group acts as a firewall that controls the traffic allowed to reach one or more instances.
+
+
+true
+
+You have an application that requires ad-hoc data mining and analytics of manufacturing data. What is best suited for this application?
+
+AWS EMR
