@@ -32,3 +32,19 @@ Don't use root access. MFA and IAM instead.
 
 * You would like to decouple your application components from demand. What service would you use?
 Amazon Simple Queue Service (Amazon SQS) offers a reliable, highly-scalable hosted queue for storing messages as they travel between applications or microservices. It moves data between distributed application components and helps you decouple these components.
+
+
+You have an application that sends push messages to mobile devices. Which service should you use?
+SNS
+SNS can send push notifications See: https://docs.aws.amazon.com/sns/latest/dg/SNSMobilePush.html
+
+
+
+Question 9:
+Design for failure and nothing will fail, is a best practice?
+
+Rule of thumb: Be a pessimist when designing architectures in the cloud; assume things will fail. In other words, always design, implement and deploy for automated recovery from failure. See: https://media.amazonwebservices.com/AWS_Cloud_Best_Practices.pdf
+
+
+Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud. See: https://docs.aws.amazon.com/redshift/latest/mgmt/welcome.html
+
