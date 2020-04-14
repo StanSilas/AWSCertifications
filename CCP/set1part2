@@ -39,3 +39,12 @@ Amazon Kinesis Data Streams enables you to build custom applications that proces
 
 AWS Lambda : AWS _____ is a serverless compute service that runs your code in response to events and automatically manages the underlying compute resources for you. 
 
+
+You can run your RDS instance in several Availability Zones, an option called a Multi-AZ deployment. When you select this option, Amazon automatically provisions and maintains a synchronous standby replica of your DB instance in a different Availability Zone.
+
+When Multi-AZ is enabled on RDS, the standby replica instance will be located in a different AZ
+
+Amazon S3 bucket names are globally unique, regardless of the AWS region in which you create the bucket.
+
+  
+  
