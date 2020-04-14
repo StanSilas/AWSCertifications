@@ -1,0 +1,6 @@
+https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html  
+S3 _______ storage class is optimized for long-lived and less frequently accessed data, for example backups and older data where frequency of access has diminished, but the use case still demands high performance.
+
+Reduced Redundancy
+
+
