@@ -16,3 +16,26 @@ true
 You have an application that requires ad-hoc data mining and analytics of manufacturing data. What is best suited for this application?
 
 AWS EMR
+
+
+Your company has a backup policy that requires data to be accessible within seconds for the first 6 months and archived with up to a day to access after 6 months. What is the best solution?
+
+S3 & archive to glacier using a lifecycle policy
+
+IAM is Free
+
+
+An IAM group is a collection of IAM users. Groups let you specify permissions for multiple users, which can make it easier to manage the permissions for those users. See:
+
+
+You're creating an application that runs on an AWS EC2 instance and that makes requests to AWS. You need to create an IAM _____.
+
+ROLE
+You can and should use an IAM role to manage temporary credentials for applications that run on an EC2 instance. When you use a role, you don't have to distribute long-term credentials (such as a user name and password or access keys) to an EC2 instance. See: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2.html
+
+
+Amazon Kinesis Data Streams enables you to build custom applications that process or analyze streaming data for specialized needs. Kinesis Data Streams can continuously capture and store terabytes of data per hour from hundreds of thousands of sources such as website clickstreams, financial transactions, social media feeds, IT logs, and location-tracking events.
+
+
+AWS Lambda : AWS _____ is a serverless compute service that runs your code in response to events and automatically manages the underlying compute resources for you. 
+
